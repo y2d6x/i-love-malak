@@ -14,7 +14,7 @@ export default function DaysCounter({ startDate = "2025-02-12" }: DaysCounterPro
             <p className="text-white/50 text-sm tracking-widest uppercase mb-2" style={{ fontFamily: "var(--font-poppins)" }}>
                 أيامٌ معاً
             </p>
-            <div className="inline-flex items-center gap-1">
+            <div className="inline-flex items-center gap-1" dir="ltr">
                 {String(days).split("").map((digit, i) => (
                     <span
                         key={i}
